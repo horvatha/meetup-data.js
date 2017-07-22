@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Data Meetup-Budapest</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style type="text/css">
+			html.img-right div.slide-background.present {
+		      background-position: absolute;
+		      background-size: 200px 200px;
+		      -webkit-animation: mymove 5s infinite;
+		  }
+		  /* Chrome, Safari, Opera */
+		  @-webkit-keyframes mymove {
+		      50% {background-size: 500px 500px;}
+		  }
+
+		  /* Standard syntax */
+		  @keyframes mymove {
+		      50% {background-size: 500px 500px;}
+		  }
+			.bottom{
+				display: block;
+				position: absolute;
+				bottom: -150px;
+				z-index: 20;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+						<h2>Data "What, Why, and How" to "You, Here, and Now”</h2>
+						<p>
+							<small>Created by <a href="https://www.linkedin.com/in/manel-rhaiem-4923104b/">Manel Rhaiem</a> /
+								<a href="https://twitter.com/manelbutterfly">@manelbutterfly</a></small>
+						</p>
+				</section>
+				<section>
+						<h1><del>Data "What, Why, and How" to "You, Here, and Now”</del></h1>
+
+				</section>
+				<section>
+					<h2>Learn how to use Python/Pandas to answer questions</h2>
+
+				</section>
+				<section data-background="img/havefun.gif" data-state="img-right">
+
+			  </section>
+				<section>
+				<section data-background="img/myself.png">
+			  </section>
+				<section>
+					<h2>Is that WordCloud? </h2>
+			      <div class="cell border-box-sizing text_cell rendered">
+			        <img src="img/thinking.jpg"/>
+			      </div>
+			  </section>
+				<section>
+					<h2> Let's take a look </h2>
+					<div class="cell border-box-sizing text_cell rendered">
+						<img src="img/takealook.gif"/>
+					</div>
+				</section>
+			</section>
+			<section data-background="img/wines.jpg">
+				<h2>It's always starting with questions</h2>
+				<p> How can you mesure the taste of wine ? </p>
+			</section>
+			<section data-background="img/spider-man.jpeg">
+			</section>
+			<section>
+				<h3> GCD is your friend for Data </h3>
+				<p><small>Source: <a href="http://docs.comics.org/wiki/Data_Distribution">Comics Data</a></small></p>
+			</section>
+			<section>
+				<section>
+					<h2>Is Mozilla using Data nowadays ?</h2>
+				</section>
+				<section data-background="img/yeah.gif" class="fragment" data-fragment-index="3"></section>
+				<section data-background="img/MozillaCommunityAnalytics-Architecture-JUL2017.png" data-background-repeat="no-repeat" data-background-size="100%">
+
+				</section>
+				<section>
+					<h4><a href="https://github.com/Bitergia/mozilla-contribution-analysis/tree/master/data-analysis"> Bitegia/mozilla-contribution-analysis</a></h4>
+				</section>
+			</section>
+
+			<section>
+						<h3>Thank you for your attention</h3>
+						<p>
+							<img src="img/foxkehdance.gif"/>
+						</p>
+						<div class="bottom">
+							<span id="footer-left" ><a href="https://twitter.com/manelbutterfly">@manelbutterfly</a></span>
+						</div>
+	</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ slideNumber: 'c/t' });
+		</script>
+	</body>
+</html>
